@@ -12,7 +12,7 @@ router.post("/process_payment", (req, res) => {
   );
   const client = new MercadoPagoConfig({
     accessToken:
-      "TEST-1756481476852605-080620-81ffd9e9968c58f8eca773b0686395c1-1738939354",
+      "APP_USR-5494145902409580-091016-59987a6db0e023e3cda59ab0aa62fba1-1908637327",
   });
   const payment = new Payment(client);
   payment
