@@ -1,4 +1,4 @@
-const mp = new MercadoPago("TEST-e8c446c2-e284-41f2-b503-4e51ee784044");
+const mp = new MercadoPago("APP_USR-f97d7f41-4340-4925-b1ba-f67bac5ac817");
 
 const cardForm = mp.cardForm({
   amount: "100.5",
