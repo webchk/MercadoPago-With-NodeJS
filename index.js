@@ -12,4 +12,4 @@ app.use(express.static(resolve(".", "static")));
 app.use(express.json());
 app.use(routes);
 
-app.listen(8000, console.log("Listening on http://localhost:8000"));
+app.listen(80, console.log("Listening on http://localhost:8000"));
